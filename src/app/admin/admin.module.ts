@@ -6,6 +6,7 @@ import { AdminComponent } from './admin.component';
 import {HeaderModule} from './header/header.module';
 import {SharedModule} from '../shared/shared.module';
 import {NavigationModule} from './navigation/navigation.module';
+import { BrandComponent } from './brand/brand.component';
 
 @NgModule({
   imports: [
@@ -17,6 +18,7 @@ import {NavigationModule} from './navigation/navigation.module';
   ],
   declarations: [
     AdminComponent,
+    BrandComponent,
   ],
   exports: [
     AdminComponent,
