@@ -1,6 +1,7 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { RouterModule } from '@angular/router';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 import { AppComponent } from './app.component';
 import { AdminModule } from './admin/admin.module';
@@ -15,6 +16,7 @@ import {CoreModule} from './core/core.module';
   imports: [
       RouterModule.forRoot([]),
     BrowserModule,
+      BrowserAnimationsModule,
     AdminModule,
     SharedModule,
       CoreModule,

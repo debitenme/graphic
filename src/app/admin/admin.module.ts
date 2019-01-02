@@ -5,13 +5,15 @@ import { RouterModule } from '@angular/router';
 import { AdminComponent } from './admin.component';
 import {HeaderModule} from './header/header.module';
 import {SharedModule} from '../shared/shared.module';
+import {NavigationModule} from './navigation/navigation.module';
 
 @NgModule({
   imports: [
       RouterModule,
     CommonModule,
     HeaderModule,
-      SharedModule
+      SharedModule,
+      NavigationModule
   ],
   declarations: [
     AdminComponent,
